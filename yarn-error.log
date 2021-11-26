@@ -1,0 +1,40 @@
+Arguments: 
+  /snap/node/5534/bin/node /snap/node/5534/bin/yarn.js config get registry
+
+PATH: 
+  /home/ahmed/Desktop/react-app/node_modules/.bin:/home/ahmed/Desktop/node_modules/.bin:/home/ahmed/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/snap/node/5534/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/home/ahmed/.npm/_npx/c67e74de0542c87c/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, write
+      at writeSync (node:fs:884:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:25:3)
+      at writeOrBuffer (node:internal/streams/writable:389:12)
+      at _write (node:internal/streams/writable:330:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:334:10)
+      at ConsoleReporter._log (/snap/node/5534/lib/cli.js:96906:17)
+      at ConsoleReporter.log (/snap/node/5534/lib/cli.js:96894:10)
+      at get (/snap/node/5534/lib/cli.js:87579:14)
+      at Object.<anonymous> (/snap/node/5534/lib/cli.js:25983:25)
+      at Generator.next (<anonymous>)
+
+npm manifest: 
+  {
+    "name": "jsx-check",
+    "version": "0.1.0",
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
